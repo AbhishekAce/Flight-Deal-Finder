@@ -2,6 +2,7 @@ import os
 import requests
 from requests.auth import HTTPBasicAuth
 from dotenv import load_dotenv
+
 SHEETY_PRICES_ENDPOINT = "https://api.sheety.co/2b359c82eb3480bb4bdab27d0a37df36/flightDeals/prices"
 
 class DataManager:
